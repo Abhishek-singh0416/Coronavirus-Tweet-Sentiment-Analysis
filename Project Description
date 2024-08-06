@@ -1,0 +1,72 @@
+Coronavirus Tweet Sentiment Analysis
+
+Classification
+
+Project Description
+
+Business Context
+
+This challenge asks you to build a classification model to predict the sentiment of COVID-19 tweets.The tweets have been pulled from Twitter and manual tagging has been done then. The names and usernames have been given codes to avoid any privacy concerns.
+
+Dataset Description
+| Fields               | Description                |
+|----------------------|----------------------------|
+| Username             | Coded Username             |
+| ScreenName           | Coded ScreenName           |
+| Location             | Region of origin           |
+| TweetAt              | Tweet Timing               |
+| OriginalTweet        | First tweet in the thread  |
+| Sentiment-Target variable | Sentiment of the tweet  |
+
+
+
+
+Main Libraries used:
+
+Pandas for data manipulation, aggregation
+Matplotlib and Seaborn for visualization and behavior with respect to the target variable
+NumPy for computationally efficient operations
+Scikit Learn for model training, model optimization, and metrics calculation
+Project Architecture:
+
+## Sentiment Analysis Workflow
+
+### EDA (Exploratory Data Analysis)
+- **Distribution of tweets across location**
+  - Come up with more ideas
+- **Word Cloud of different tweets**
+- **Is tweet sentiment correlated to tweet timing?**
+- **Visualizing and analyzing relationships**
+  - Forming assumptions and obtaining insights
+  - Are negative tweets concentrated in a particular location?
+  - Come up with more ideas
+
+### Clean-up
+- **Understanding business problem**
+- **Missing Values**
+- **Outliers**
+
+### Feature Engineering
+- **Feature Encoding**
+- **Creating new features if required**
+- **Removing Multicollinearity**
+
+### Pre Processing
+- **Feature Scaling** - std scaler/min-max scaler
+- **Handling imbalance if any**
+
+### Model Implementation
+- **Train Test Split**
+- **Which algorithm to use? What's your reasoning?**
+- **Training**
+- **Testing**
+- **Hyper parameter tuning**
+- **Evaluation** - Keep in mind the class imbalance if any
+
+### Model Explainability
+- **Feature Importance and Conclusion**
+
+
+
+
+
